@@ -1,0 +1,74 @@
+body {
+    background-color: #393E46;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: #4ECCA3;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .dicebox {
+    border: 1px solid white;
+} */
+
+p {
+    /* border: 1px solid white; */
+    text-align: center;
+    color: #4ECCA3;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .title{
+    /* border: 1px solid white; */
+    flex: flex;
+    justify-content: center;
+}
+
+.container .dicebox {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+
+.dice-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dice-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.random {
+    border: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #4ECCA3;
+    padding: 17px;
+    width: 250px;
+}
+
+.random:hover {
+    background-color: #65f0c2;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 1rem;
+    margin-top: 60px;
+}
