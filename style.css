@@ -84,7 +84,9 @@ p {
     }
 
     h1 {
+        margin-top: 60px;
         font-size: 2rem;
+        color: red;
     }
 
     .player {
