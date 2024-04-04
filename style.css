@@ -73,10 +73,14 @@ p {
     margin-top: 60px;
 }
 
-@media (min-width: 330px) and (max-width: 500px) {
+@media (min-width: 325px) and (max-width: 594px) {
+
+    .dicebox {
+        margin-top: 50px;
+    }
     .dice {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 
     h1 {
@@ -86,5 +90,15 @@ p {
 
     .player {
         font-size: 1.5rem;
+    }
+
+    .btn {
+        margin-top: 100px;
+    }
+
+    .random {
+        font-size: 13px;
+        padding: 12px;
+        width: 125px;
     }
   }
