@@ -85,6 +85,7 @@ p {
 
     h1 {
         font-size: 3rem;
+        color: red;
     }
 
     .player {
@@ -92,7 +93,7 @@ p {
     }
 
     .btn {
-        margin-top: 80px;
+        margin-top: 70px;
     }
 
     .random {
